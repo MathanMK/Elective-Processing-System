@@ -1,0 +1,26 @@
+
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.logo{
+  height: auto;
+  width: 50%;
+  position: relative;
+  display: block;
+  justify-content: center;
+}
+
+.el{
+  width: 16rem;
+  height: 13rem;
+}

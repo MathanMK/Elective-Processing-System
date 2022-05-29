@@ -1,0 +1,168 @@
+<html>
+<head>
+<title>
+Elective home
+</title>
+ <link rel='stylesheet' href='/stylesheets/style.css' />
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/sass.js/0.11.1/sass.min.js">
+ 
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.logo {
+  font-size: 32px;
+  font-weigth: 500;
+  float: left;
+  margin-right: auto;
+  cursor: pointer;
+}
+li,
+.logo {
+  font-size: 32px;
+  font-weigth: 500;
+  float: left;
+  margin-right: auto;
+  cursor: pointer;
+}
+a,
+button {
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #4e8397;
+}
+nav ul {
+  margin-left: 30px;
+}
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+nav ul li a {
+  text-transform: uppercase;
+
+  text-decoration: none;
+  color: #b39cd0;
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 0.4s ease 0s;
+}
+nav ul li a:hover {
+  color: #fff;
+  transform: scale(1.5);
+}
+button {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 9px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #fbeaff;
+  cursor: pointer;
+  transition: all 0.4s ease 0s;
+}
+button:hover {
+  background-color: rgba(22, 136, 169, 0.8);
+}
+.cta {
+  float: left;
+}
+
+h1 {
+    font-family: 'Red Hat Mono', monospace;
+  color: #534935;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate(-10%, -40%);
+  width: 350px;
+  font-size:3rem;
+}
+
+.right{
+  background-color: $accent-clr;
+  position: absolute;
+  width: 55%;
+  height: 90%;
+  left: 45%;
+  border-radius: 100% 0 0 0;
+}
+.right img{
+  position: absolute;
+  top:15%;
+  left: 5%;
+  height:20rem;
+  transform: translate(-5%, -5%);
+
+  
+}
+
+p{
+  font-family: 'Red Hat Mono', monospace;
+  color: #534935;
+  position: absolute;
+  top: 70%;
+  left: 17%;
+  transform: translate(-7%, -58%);
+ font-size: 30px;
+}
+
+
+
+</style>
+</head>
+<body>
+<header>
+    <div class="logo" style="color:aqua">Elective Automation</div>
+    <div class="container">
+        <div class="page">
+            <nav class="navbar">
+               
+                <ul>
+                    <li>
+                       <a href="/teach_list"><button>TeacherList</button></a>
+                    </li>
+                    <li>
+                   <a href="/course_list"><button>CourseList</button></a>
+                    <li>
+                        <a href="/preference"><button>Add Preferences</button></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+    <div class="left">
+      <h1>Elective Regestration</h1><br>
+      <h4><p>Choose your Intrests<br> <a href="/register"><button>Register</button></a>
+        <a href="/caplist"><button>Capacity Status</button></a>
+        <a href="/application"><button>Teacher Application</button></a><br><br>
+        <a href="/teacher"><button>Add teacher</button></a>
+        <a href="/course"><button>Add course</button></a>
+        <a href="/entry"><button>Entry</button></a>
+        <a href="/entries"><button>Entry List</button></a>
+        </p></h4>
+      
+        
+        
+    </div>
+    <div class="right">
+      <div class="img"><img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201908/e_learning_new_0.png?HdQc4PgJXVKd6bGfZsdga3gn0GWvcPMv&size=770:433">
+      </div>
+      
+    </div>
+ 
+</body>
+</html>
